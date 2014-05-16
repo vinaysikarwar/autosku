@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <WTC_AutoSku>
+      <version>0.1.0</version>
+    </WTC_AutoSku>
+  </modules>
+  <global>
+    <helpers>
+      <autosku>
+        <class>WTC_AutoSku_Helper</class>
+      </autosku>
+    </helpers>
+	<blocks>
+	  <autosku>
+		<class>WTC_AutoSku_Block</class>
+	  </autosku>
+			<adminhtml>
+				<rewrite>
+					<catalog_product_edit>WTC_AutoSku_Block_Adminhtml_Catalog_Product_Edit</catalog_product_edit>
+				</rewrite>
+			</adminhtml>
+	</blocks>
+  </global>
+</config> 

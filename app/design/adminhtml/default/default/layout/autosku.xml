@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+      <adminhtml_catalog_product_new>
+        <update handle="editor"/>
+        <reference name="content">
+            <block type="adminhtml/catalog_product_edit" name="product_edit_autosku" template="autosku/edit.phtml"></block>
+        </reference>
+    </adminhtml_catalog_product_new>
+	
+
+</layout>
